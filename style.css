@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-placeholder img {
+    height: 250px;
+}
+
+.images img {
+    width: 120px;
+    border-radius: 20%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
