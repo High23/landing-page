@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .img-placeholder img {
@@ -32,6 +33,10 @@ li {
     background-color: #1F2937;
 }
 
+.container-3 {
+    background-color: #E5E7EB;
+}
+
 .header {
     display: flex;
     justify-content: space-around;
@@ -51,6 +56,24 @@ li {
 
 .main-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
+}
+
+button, .sign-up {
+    background-color: #3882F6;
+}
+
+.info-header-text, .quote-by {
+    font-weight: 800;
+}
+
+.quote-text {
+    font-style: italic;
+    font-weight: 500;
+}
+
+.info-header-text, .quote-text {
+    font-size: 36px;
+    color: #1F2937;
 }
