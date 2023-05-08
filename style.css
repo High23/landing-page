@@ -89,8 +89,8 @@ button {
 }
 
 .quote-text {
-    font-style: italic;
-    font-weight: 500;
+    font-weight: lighter;
+    margin: auto 375px;
 }
 
 .info-header-text, .quote-text {
@@ -120,11 +120,11 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
 }
 
 .info-header-text {
-    padding: 42px;
+    padding: 50px;
 }
 
 .images, .img-subtext {
@@ -133,7 +133,18 @@ button {
 }
 
 .img-subtext {
+    color: rgba(0, 0, 0, 0.651);
     padding-top: 6px;
     text-align: center;
     width: 150px;
+}
+
+.container-3 {
+    padding: 125px 0;
+}
+
+.quote-by {
+    font-size: 24px;
+    text-align: end;
+    margin: auto 425px;
 }
