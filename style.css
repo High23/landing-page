@@ -59,7 +59,7 @@ li {
     font-weight: bold;
 }
 
-.link-text, .secondary-text, .footer{
+.link-text, .secondary-text, .footer, .cta-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -79,8 +79,8 @@ button, .sign-up {
 button {
     font-size: 18px;
     border: 2px solid #F9FAF8;
-    border-radius: 5px;
-    padding: 8px 28px;
+    border-radius: 10px;
+    padding: 8px 32px;
     font-weight: bold;
 }
 
@@ -147,4 +147,29 @@ button {
     font-size: 24px;
     text-align: end;
     margin: auto 425px;
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+.cta-text {
+    font-weight: normal;
+}
+
+.sign-up {
+    border-radius: 10px;
+    padding: 50px 150px;
+}
+
+.container-4, .sign-up  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-4 {
+    padding: 100px;
 }
