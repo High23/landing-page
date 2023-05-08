@@ -1,3 +1,7 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', "Geneva", Verdana, sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -45,7 +49,7 @@ li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 12px;
+    padding: 18px;
 }
 
 .logo-text {
@@ -63,6 +67,7 @@ li {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    max-width: 400px;
 }
 
 button, .sign-up {
@@ -71,9 +76,11 @@ button, .sign-up {
 }
 
 button {
+    font-size: 18px;
     border: 2px solid #F9FAF8;
-    border-radius: 5%;
-    padding: 4px 18px;
+    border-radius: 5px;
+    padding: 8px 28px;
+    font-weight: bold;
 }
 
 .info-header-text, .quote-by {
@@ -89,3 +96,22 @@ button {
     font-size: 36px;
     color: #1F2937;
 }
+
+.header-body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 75px 0;
+    padding: 18px;
+}
+
+.secondary-text {
+    max-width: 450px;
+    padding-bottom: 12px;
+}
+
+.header-body div button {
+    border: none;
+}
+
